@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #FF8343;
+    margin: 20px;
+    border: 3px solid #e2c195;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    background-color: #ffffff; /* Fondo blanco para el documento */
+}
+
+h1 {
+    font-family: "Roboto", sans-serif; /* Si quieres mantener Roboto para h1 */
+    font-weight: 700;
+    color: #4158A6;
+    background-color: #F1DEC6;
+    padding: 10px;
+    border: 3px solid #e2c195;
+    border-radius: 10px;
+    width: 95%;
+    box-sizing: border-box;
+    margin: 20px 0; /* Espacio superior e inferior */
+}
+
+h2 {
+    font-family: "Roboto", sans-serif; /* Si quieres mantener Roboto para h2 */
+    font-weight: 800;
+    color: #127786;
+    background-color: #F1DEC6;
+    border: 3px solid #e2c195;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0; /* Espacio superior e inferior */
+}
+
+p {
+    font-family: "Roboto", sans-serif; /* Si quieres mantener Roboto para párrafos */
+    font-weight: 400;
+    border: 3px solid #F1DEC6;
+    background-color: #F1DEC6;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 0 20px 0; /* Espacio inferior */
+}
+
+ul, ol {
+    font-family: "Roboto", sans-serif; /* Si quieres mantener Roboto para listas */
+    font-weight: 500;
+    border: 3px solid #F1DEC6;
+    background-color: #F1DEC6;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 0 20px 0; /* Espacio inferior */
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+    border: 2px solid #cccccc; /* Borde gris al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sobre el documento */
+}
+
+.fondo-unido {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+h3 {    
+
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Clases específicas para fuentes Roboto */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
