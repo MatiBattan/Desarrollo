@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mi portafolio personal</title>
+        <link rel="stylesheet" href="../CSS/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <nav class="barra-navegacion">
+            <a class="navbar-brand">Mi Portafolio</a>
+            <a class="nav-item" class="nav-link" href="../HTML/Index.html">Sobre mí</a>
+            <a class="nav-item" class="nav-link" href="../HTML/habilidades.html">Habilidades</a>
+            <a class="nav-item" class="nav-link" href="../HTML/experiencia.html">Experiencia</a>
+            <a class="nav-item" class="nav-link" href="../HTML/proyectos.html">Proyectos</a>
+            <a class="nav-item" class="nav-link" href="../HTML/contacto.html">Contacto</a>
+        </nav>
+
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../img/Foto.jpg" class="mi-foto">
+                </div>
+                <div class="col-md-8">
+                    <h1>Matías Battán</h1>
+                    <h3>Desarrollador Full-Stack</h3>
+                </div>
+            </div>
+        </div>
+
+        <section id="contact" class="container my-5">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/xovarpoo" method="post">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+
+        <footer class="text-center py-4">
+            <p>&copy; 2024 Matías Battán. Todos los derechos reservados.</p>
+            <a href="https://www.linkedin.com/in/matias-batt%C3%A1n-253a3626b/">LinkedIn</a> |
+            <a href="https://github.com/MatiBattan">GitHub</a>  
+        </footer>
+
+    </body>
+</html>
